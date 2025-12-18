@@ -1,0 +1,23 @@
+timezone: "Asia/Kolkata"
+
+work_window:
+  start: "04:00"
+  end: "12:00"
+
+proxies:
+  fb:
+    - "http://user:pass@res-proxy-1:port"
+  olx:
+    - "http://user:pass@res-proxy-2:port"
+
+cities:
+  - "Mumbai"
+  - "Delhi"
+  - "Pune"
+
+ai:
+  provider: "gemini"
+  gemini_api_key: "YOUR_GEMINI_KEY_HERE"
+
+google_webhook:
+  leads_url: "https://script.google.com/macros/s/XXXX/exec"
