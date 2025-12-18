@@ -1,0 +1,10 @@
+playwright
+PyQt5
+google-genai
+python-dotenv
+pydantic
+pyyaml
+apscheduler
+sqlite-utils
+pandas
+pyinstaller
